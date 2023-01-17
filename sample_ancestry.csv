@@ -1,0 +1,17 @@
+Person 1,Relation,Person 2,Gender,Details
+Titan,Earliest Ancestor,,M,Loren Ipsum
+Daniel,Spouse,Betty,M,Loren Ipsum
+Sara,Spouse,Jonathan,F,Loren Ipsum
+Henry,Child,Jonathan,M,Loren Ipsum
+Julie,Child,Jonathan,F,Loren Ipsum
+William,Child,Jonathan,M,Loren Ipsum
+Katie,Spouse,Henry,F,Loren Ipsum
+Kevin,Spouse,Julie,M,Loren Ipsum
+Laura,Spouse,William,F,Loren Ipsum
+Betty,Child,Henry,F,Loren Ipsum
+Katherine,Child,Julie,F,Loren Ipsum
+David,Child,William,M,Loren Ipsum
+Richard,Child,William,M,Loren Ipsum
+Laura,Child,Xd,F,
+Jonathan,Child,Titan,M,
+Sara,Child,Kik,F,

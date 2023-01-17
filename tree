@@ -1,0 +1,82 @@
+// Ancestry
+digraph {
+	graph [splines=ortho]
+	"Ava De's dad" [label="Ava De's dad" fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	{
+		rank=same
+		wife [label=wife fillcolor=pink shape=rect style=filled tooltip=nan]
+		"Ava De's dad" -> wife [arrowhead=none]
+	}
+	"Ava De" [label="Ava De" fillcolor=pink shape=rect style=filled tooltip=nan]
+	"Ava De's dad" -> "Ava De"
+	"Monju mashi" [label="Monju mashi" fillcolor=pink shape=rect style=filled tooltip=nan]
+	"Ava De's dad" -> "Monju mashi"
+	"Sister 1" [label="Sister 1" fillcolor=pink shape=rect style=filled tooltip=nan]
+	"Ava De's dad" -> "Sister 1"
+	"Sister 2" [label="Sister 2" fillcolor=pink shape=rect style=filled tooltip=nan]
+	"Ava De's dad" -> "Sister 2"
+	"Sister 3" [label="Sister 3" fillcolor=pink shape=rect style=filled tooltip=nan]
+	"Ava De's dad" -> "Sister 3"
+	"Brother 1" [label="Brother 1" fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	"Ava De's dad" -> "Brother 1"
+	"Brother 2" [label="Brother 2" fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	"Ava De's dad" -> "Brother 2"
+	"Brother 3" [label="Brother 3" fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	"Ava De's dad" -> "Brother 3"
+	"Brother 4" [label="Brother 4" fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	"Ava De's dad" -> "Brother 4"
+	"Brother 5" [label="Brother 5" fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	"Ava De's dad" -> "Brother 5"
+	{
+		rank=same
+		"Colonel De" [label="Colonel De" fillcolor=lightblue shape=rect style=filled tooltip=nan]
+		"Ava De" -> "Colonel De" [arrowhead=none]
+	}
+	{
+		rank=same
+		Pisho [label=Pisho fillcolor=lightblue shape=rect style=filled tooltip=nan]
+		"Monju mashi" -> Pisho [arrowhead=none]
+	}
+	Mama [label=Mama fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	"Ava De" -> Mama
+	Nandina [label=Nandina fillcolor=pink shape=rect style=filled tooltip=nan]
+	"Ava De" -> Nandina
+	"Shorub mama" [label="Shorub mama" fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	"Monju mashi" -> "Shorub mama"
+	Babu [label=Babu fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	"Monju mashi" -> Babu
+	"Son 1" [label="Son 1" fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	"Sister 1" -> "Son 1"
+	{
+		rank=same
+		Shantanu [label=Shantanu fillcolor=lightblue shape=rect style=filled tooltip=nan]
+		Nandina -> Shantanu [arrowhead=none]
+	}
+	{
+		rank=same
+		Natalia [label=Natalia fillcolor=pink shape=rect style=filled tooltip=nan]
+		Babu -> Natalia [arrowhead=none]
+	}
+	{
+		rank=same
+		"Wife 1" [label="Wife 1" fillcolor=pink shape=rect style=filled tooltip=nan]
+		"Son 1" -> "Wife 1" [arrowhead=none]
+	}
+	{
+		rank=same
+		Suchanda [label=Suchanda fillcolor=pink shape=rect style=filled tooltip=nan]
+		Mama -> Suchanda [arrowhead=none]
+	}
+	Mohona [label=Mohona fillcolor=pink shape=rect style=filled tooltip=nan]
+	"Son 1" -> Mohona
+	Oiyun [label=Oiyun fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	"Son 1" -> Oiyun
+	Robin [label=Robin fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	Mama -> Robin
+	Romi [label=Romi fillcolor=pink shape=rect style=filled tooltip=nan]
+	Mama -> Romi
+	Rohan [label=Rohan fillcolor=lightblue shape=rect style=filled tooltip=nan]
+	Shantanu -> Rohan
+	Ritika [label=Ritika fillcolor=pink shape=rect style=filled tooltip=nan]
+	Shantanu -> Ritika
+}
